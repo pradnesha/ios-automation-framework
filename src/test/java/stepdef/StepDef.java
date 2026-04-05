@@ -12,14 +12,6 @@ public class StepDef {
     @Given("user opens app")
     public void user_opens_app()
     {
-//        IOSDriver driver = DriverManager.getDriver();
-//
-//        System.out.println("App Launched ************: " + driver.getSessionId());
-//
-//        driver.findElement(By.xpath("//XCUIElementTypeCell[1]")).click();
-//
-//        System.out.println("Type cell clicked [[[[[[[[[[[[[[[[[");
-
         home.clickFirstCell();
     }
 }
