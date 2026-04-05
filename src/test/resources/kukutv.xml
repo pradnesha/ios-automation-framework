@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="KukuTV Suite" parallel="tests" thread-count="1">
+    <test name="KukuTv Tests">
+        <classes>
+            <class name="runner.KukuTv"/>
+        </classes>
+    </test>
+</suite>

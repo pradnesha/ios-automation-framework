@@ -1,0 +1,28 @@
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">-->
+
+<!--<suite name="KukuFM Suite" parallel="tests" thread-count="1">-->
+<!--    <test name="KukuFM Tests">-->
+<!--        <classes>-->
+<!--            <class name="runner.KukuFm"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="IOS Automation Suite">
+
+    <test name="iPhone Test">
+
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="devicesName" value="iPhone 16e"/>
+        <parameter name="udid" value="AB4EB8B8-831C-41E9-8C1E-61B50772A589"/>
+        <parameter name="iOSVersion" value="26.3"/>
+
+        <classes>
+            <class name="runner.KukuFm"/>
+        </classes>
+
+    </test>
+
+</suite>
